@@ -11,6 +11,12 @@ searchBtn.addEventListener('click', () =>{
     searchBtn.classList.toggle('fa-times');
     searchBar.classList.toggle('active');
 });
+//menu button toggler
+menu.addEventListener('click', () =>{
+    menu.classList.toggle('fa-times');
+    navbar.classList.toggle('active');
+});
+
 //sign in sayfaysı pop up
 formBtn.addEventListener('click', () =>{
     loginForm.classList.add('active');
