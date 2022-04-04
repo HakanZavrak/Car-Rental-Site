@@ -69,7 +69,7 @@ section{
     padding: 20px;
     display: grid;
   }
-  .actives .details .recentOrders{
+  .actives .details .recentRents{
     position: relative;
     display: grid;
     min-height: 500px;
@@ -83,6 +83,7 @@ section{
     align-items: flex-start;
   }
   .actives .cardHeader h2{
+    font-size: 30px;
     font-weight: 600;
     color: red;
   }
@@ -95,28 +96,28 @@ section{
   .actives .details table thead td{
     font-weight: 600;
   }
-  .actives .details .recentOrders table tr{
+  .actives .details .recentRents table tr{
     color: black;
     font-size: 20px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.534);
   }
-  .actives .details .recentOrders table tr:last-child{
+  .actives .details .recentRents table tr:last-child{
     border-bottom: none;
   }
-  .actives .details .recentOrders table tbody tr:hover{
+  .actives .details .recentRents table tbody tr:hover{
     background: rgba(0, 0, 0, 0.466);
     color: rgb(250, 192, 0);
   }
-  .actives .details .recentOrders table tr td{
+  .actives .details .recentRents table tr td{
     padding: 10px;
   }
-  .actives .details .recentOrders table tr td:last-child{
+  .actives .details .recentRents table tr td:last-child{
     text-align: end;
   }
-  .actives .details .recentOrders table tr td:nth-child(2){
+  .actives .details .recentRents table tr td:nth-child(2){
     text-align: end;
   }
-  .actives .details .recentOrders table tr td:nth-child(4){
+  .actives .details .recentRents table tr td:nth-child(4){
     text-align: center;
   }
   .actives .status.rented{
@@ -174,7 +175,7 @@ section{
     .details{
       grid-template-columns: repeat(1,1fr);
     }
-    .recentOrders{
+    .recentRents{
       overflow-x: auto;
     }
     .status{
