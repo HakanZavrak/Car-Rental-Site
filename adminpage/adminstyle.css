@@ -72,6 +72,7 @@ section{
   .actives .details .recentRents{
     position: relative;
     display: grid;
+    border-radius: 20px;
     min-height: 500px;
     background: var(--white);
     padding: 20px;
@@ -333,6 +334,9 @@ section{
   }
   
   @media (max-width:991px){
+    .welcome h3{
+      padding: 100px;
+    }
   
     header{
       padding:2rem;
@@ -391,4 +395,55 @@ section{
     .contact .row form .inputBox input{
       width:100%;
     }
+  }
+  .welcome h3{
+    font-size: 50px;
+    color: red;
+    padding: 10px;
+    text-align: center;
+  }
+  .vehicles2 .box-container{
+    display: flex;
+    gap:2rem;
+    flex-wrap: wrap;   
+  }
+  
+  .vehicles2 .box-container .box{
+    flex:1 1 30rem;
+    border-radius: .5rem;
+    overflow: hidden;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+  }
+  
+  .vehicles2 .box-container .box img{
+    height: 25rem;
+    width:100%;
+    object-fit:scale-down;
+  }
+  
+  .vehicles2 .box-container .box .content{
+    padding:2rem;
+  }
+  
+  .vehicles2 .box-container .box .content h3{
+    font-size:2rem;
+    color:rgb(0, 0, 0);
+  }
+  
+  .vehicles2 .box-container .box .content p{
+    font-size:1.7rem;
+    color:rgb(0, 0, 0);
+    padding:1rem 0;
+  }
+  
+  .vehicles2 .box-container .box .content .price{
+    font-size: 2rem;
+    color:rgb(0, 0, 0);
+    padding-top: 1rem;
+  }
+  
+  .vehicles2 .box-container .box .content .price color{
+    color:rgb(0, 0, 0);
+    font-size: 1.5rem;
+    text-decoration: line-through;
   }
