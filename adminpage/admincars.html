@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        document.querySelector('.img__btn').addEventListener('click', function () {
+          document.querySelector('.cont').classList.toggle('s--signup');
+        });
+      </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car rental site</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="adminstyle.css">
+    
+
+</head>
+<body>
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+    
+        <a href="#" class="logo"><color>HZ</color> CAR RENTAL</a>
+    
+        <nav class="navbar">
+            <a href="admin.html">Home</a>
+            <a href="admin.html#actives">Orders</a>
+            <a href="admincars.html">vehicles</a>
+        </nav>
+    
+        <div class="icons">
+            <ikon class="fas fa-user" id="login-btn"></ikon>
+            <ikon class="fas fa-search" id="search-btn"></ikon>
+            
+        </div>
+    
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="Search Car Model">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    
+    </header>
+    <section class="welcome">
+        <h3>welcome to car section</h3>
+    </section>
+    
+    </section>
+    <section class="vehicles2">
+        <div class="box-container">
+            <div class="box">
+                <div class="content">
+                    <h3> <i class="fas fa-car"></i> Add a new car </h3>    
+                </div>
+                
+                    <div class="inputBox">
+                        <h3>License Plate</h3>
+                        <input type="text" placeholder="license plate">
+                    </div>
+                    <div class="inputBox">
+                        <h3>Car ID</h3>
+                        <input type="text" placeholder="Car ID">
+                    </div>
+                    <div class="inputBox">
+                        <h3>Car Brand</h3>
+                        <input type="text" placeholder="Car Brand">
+                    </div>
+                    <div class="inputBox">
+                        <h3>Car Model</h3>
+                        <input type="text" placeholder="Car Model">
+                    </div>
+                    <div class="inputBox">
+                        <input type="file" id='file-input' hidden>
+                        <div id="container">
+                            <button>Select an image</button>
+                            <p>Preview</p>
+                            <img id="preview">
+                        </div>
+                    </div>
+                    <a href="#" class="btn">Add</a>
+            </div>
+            
+        </div>
+
+    </section>
+    <section class="vehicles" id="vehicles">
+    <div class="box-container">
+
+        <div class="box">
+            <img src="../../images/HD-wallpaper-ferrari-f8-tributo-2019-2.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-car"></i> Ferrari </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                <div class="price"> $130.00 <color>$180.00</color> </div>
+                <a href="#" class="btn"><p class="fas fa-trash"></p>Remove this car</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="../../images/HD-wallpaper-ferrari-f8-tributo-2019-2.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-car"></i> Ferrari </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                <div class="price"> $130.00 <color>$180.00</color> </div>
+                <a href="#" class="btn"><p class="fas fa-trash"></p>Remove this car</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="../images/HD-wallpaper-ferrari-f8-tributo-2019-2.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-car"></i> Ferrari </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                <div class="price"> $130.00 <color>$180.00</color> </div>
+                <a href="#" class="btn"><p class="fas fa-trash"></p>Remove this car</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="../images/HD-wallpaper-ferrari-f8-tributo-2019-2.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-car"></i> Ferrari </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                <div class="price"> $130.00 <color>$180.00</color> </div>
+                <a href="#" class="btn"><p class="fas fa-trash"></p>Remove this car</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="../images/HD-wallpaper-ferrari-f8-tributo-2019-2.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-car"></i> Ferrari </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                <div class="price"> $130.00 <color>$180.00</color> </div>
+                <a href="#" class="btn"><p class="fas fa-trash"></p>Remove this car</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="../images/HD-wallpaper-ferrari-f8-tributo-2019-2.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-car"></i> Porsche </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                <div class="price"> $90.00 <color>$120.00</color> </div>
+                <a href="#" class="btn"><p class="fas fa-trash"></p>Remove this car</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="../images/HD-wallpaper-ferrari-f8-tributo-2019-2.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-car"></i> Chevrolet </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                <div class="price"> $90.00 <color>$120.00</color> </div>
+                <a href="#" class="btn"><p class="fas fa-trash"></p>Remove this car</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="../images/HD-wallpaper-ferrari-f8-tributo-2019-2.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-car"></i> Aston Martin </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                <div class="price"> $110.00 <color>$140.00</color> </div>
+                <a href="#" class="btn"><p class="fas fa-trash"></p>Remove this car</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="../images/HD-wallpaper-ferrari-f8-tributo-2019-2.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-car"></i> McLaren </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                <div class="price"> $160.00 <color>$220.00</color> </div>
+                <a href="#" class="btn"><p class="fas fa-trash"></p> Remove this car</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="../images/HD-wallpaper-ferrari-f8-tributo-2019-2.jpg" alt="">
+            <div class="content">
+                <h3> <p class="fas fa-car"></p> Lamborghini </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                <div class="price"> $120.00 <color>$180.00</color> </div>
+                <a href="#" class="btn"> <p class="fas fa-trash"></p> Remove this car</a>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="footer">
+
+        <div class="box-container">
+    
+            <div class="box">
+                <h3>about us</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quas magni pariatur est accusantium voluptas enim nemo facilis sit debitis.</p>
+            </div>
+            <div class="box">
+                <h3>Locations</h3>
+                <p>Turkey</p>
+                <p>USA</p>
+                <p>Japan</p>
+                <p>Germany</p>
+            </div>
+            <div class="box">
+                <h3>Are you lost</h3>
+                <a href="admin.html">home</a>
+                <a href="admin.html#actives">Orders</a>
+                <a href="admincars.html">vehicles</a>
+            </div>
+            <div class="box">
+                <h3>Socials</h3>
+                <a href="#">facebook</a>
+                <a href="#">instagram</a>
+                <a href="#">twitter</a>
+                <a href="#">linkedin</a>
+            </div>
+    
+        </div>
+        <h1 class="credit"> created by <color> Hakan Zavrak </color>
+    
+    </section>
+</body>
+<script src="../script.js"></script>
+<script src="admin.js"></script>
