@@ -25,9 +25,7 @@ html{
 section{
   padding:2rem 9%;
 }
-.admin{
-    display: flex;
-  }
+
   .admin .cardBox{
     position: relative;
     width: 100%;
@@ -334,10 +332,7 @@ section{
   }
   
   @media (max-width:991px){
-    .welcome h3{
-      padding: 100px;
-    }
-  
+
     header{
       padding:2rem;
     }
@@ -400,6 +395,12 @@ section{
     font-size: 50px;
     color: red;
     padding: 50px;
+    text-align: center;
+  }
+  .welcome h2{
+    font-size: 40px;
+    color: red;
+    padding: 10px;
     text-align: center;
   }
   .vehicles2 .box-container{
