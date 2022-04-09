@@ -307,6 +307,10 @@ header .search-bar-container label:hover{
   text-align: center;
 }
 
+.services .box-container .box:hover{
+  background: rgb(0, 174, 255);
+
+}
 .services .box-container .box ikon{
   padding:1rem;
   font-size: 5rem;
